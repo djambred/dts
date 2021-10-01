@@ -160,4 +160,15 @@ table tr:nth-child(2n+1) {
     box-shadow: none;
     overflow: visible;
   }
+
+  .button {
+    background-color: #6cbec6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 }
