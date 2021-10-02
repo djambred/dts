@@ -22,7 +22,7 @@ def index():
             loaded_model = joblib.load(open(filename, 'rb'))
             prediction=loaded_model.predict([[x,y]])
             print('prediction is', prediction)
-            return render_template('results.html',prediction=round(1*prediction[0]))
+            return render_template('results.html',prediction=round(10*prediction[0]))
         except Exception as e:
             print('The Exception message is: ',e)
             return 'something is wrong'
